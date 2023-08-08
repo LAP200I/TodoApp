@@ -1,0 +1,101 @@
+.list {
+    list-style: none;
+    max-width: 100%;
+    margin: auto;
+    height: 50vh;
+    /* min-height: 50vh; */
+
+}
+
+.list-search {
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 50vw;
+}
+
+ul {
+    padding: 0;
+}
+
+.list form {
+    display: flex;
+    width: 100%;
+}
+
+.list li {
+    display: flex;
+    padding: 0.5rem 0rem;
+    background-color: #ccc;
+    width: auto;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.function {
+    margin-left: auto;
+}
+
+
+.list .edit {
+    padding: 0.5rem 1rem;
+    border: 1px solid cadetblue;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.list span {
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 6px;
+}
+
+.indexList {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 0.7rem;
+    padding: 5px 7px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #ffffff;
+
+
+}
+
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+
+}
+
+.list .item[data-title] {
+    position: relative;
+}
+
+li[data-title]:hover::after {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 0.25em;
+    font-size: 1em;
+    padding: 0;
+    top: 100%;
+    width: 80%;
+    min-width: 0%;
+    min-height: 0%;
+    cursor: pointer;
+    z-index: 10;
+}

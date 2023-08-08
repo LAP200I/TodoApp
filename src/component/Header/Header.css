@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: flex-end;
+
+}
+
+#search {
+    width: 50%;
+    margin-left: auto;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    font-family: cursive;
+}

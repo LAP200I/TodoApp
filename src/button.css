@@ -1,0 +1,114 @@
+button {
+    margin: 0 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: #4dc5d5;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.btn-clear {
+    color: aliceblue;
+    background-color: purple;
+    margin-left: 5px;
+}
+
+.btn-clear:hover {
+    color: purple;
+    background-color: aliceblue;
+    border: 1px solid purple;
+}
+
+.btn-add {
+    display: block;
+    color: aliceblue;
+    background-color: purple;
+    height: 100%;
+
+}
+
+
+.btn-add:hover {
+    color: purple;
+    background-color: aliceblue;
+    border: 1px solid purple;
+}
+
+.btn-danger {
+    color: aliceblue;
+    background-color: tomato;
+}
+
+.btn-danger.clearAll {
+    color: aliceblue;
+    background-color: purple;
+    height: 100%;
+}
+
+.btn-danger:hover {
+    color: tomato;
+    background-color: aliceblue;
+    border: 1px solid tomato;
+}
+
+.btn-check:hover {
+    color: rgb(95, 160, 110);
+    background-color: aliceblue;
+    border: 1px solid rgb(95, 160, 110);
+}
+
+.btn-check {
+
+
+    color: aliceblue;
+    background-color: rgb(95, 160, 110);
+}
+
+.checkAll {
+    height: 100%;
+}
+
+.total-tasks button {
+    padding: 10px;
+    color: aliceblue;
+    background-color: purple;
+    height: 100%;
+}
+
+button.active {
+    background-color: lightseagreen;
+}
+
+.function button[data-title] {
+    position: relative;
+    opacity: 1 !important;
+
+}
+
+button[data-title]:hover::after {
+    cursor: pointer;
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 0.25em;
+    font-size: 1em;
+    padding: 10px;
+    top: 100%;
+    left: -100%;
+    width: max-content;
+    min-width: 0%;
+    min-height: 0%;
+    opacity: 1 !important;
+    z-index: 100;
+}
