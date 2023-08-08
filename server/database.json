@@ -8,12 +8,12 @@
     {
       "id": "2df624aa-b9ed-4311-873c-86767da86eb6",
       "title": "sad",
-      "completed": false
+      "completed": true
     },
     {
       "id": "8d8c7896-b946-4fa1-a134-31d02639c12f",
       "title": "adas",
-      "completed": false
+      "completed": true
     },
     {
       "id": "381a6788-c4cd-43f3-9dfc-9f9e0919469f",
@@ -23,7 +23,7 @@
     {
       "id": "a6389518-aaab-464d-b58a-c4da2aa1df5a",
       "title": "The useDebounce hook is useful for delaying the execution of functions or state updates until a specified time period has passed without any further changes to the input value. This is especially useful in scenarios such as handling user input or triggering network requests, where it effectively reduces unnecessary computations and ensures that resource-intensive operations are only performed after a pause in the input activity.",
-      "completed": false
+      "completed": true
     },
     {
       "id": "0ed35ea9-dd6c-4670-bfae-12f765c90e88",
@@ -48,7 +48,7 @@
     {
       "id": "abf8c41a-d367-4cdc-8604-d7760773b1fc",
       "title": "4",
-      "completed": true
+      "completed": false
     },
     {
       "id": "f3c7e411-a827-4830-bfb5-fe169d5370aa",
